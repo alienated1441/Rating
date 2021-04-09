@@ -1,0 +1,43 @@
+SCRIPT JSON FAKE RATING:
+
+LETAKKAN DI BAWAH <head>
+
+
+
+
+<script type='application/ld+json'>
+{
+  "@context": "https://schema.org/",
+  "@type": "CreativeWorkSeries",
+  "name": "ISI DENGAN JUDUL BLOG | ISI DENGAN DESKRIPSI BLOG",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "ISI DENGAN JUMLAH BINTANG, BISA DI ISI DGN 5 ATAU 10",
+    "ratingCount": "ISI DENGAN ANGKA JUMLAH TOTAL RATING",
+    "bestRating": "ISI DENGAN ANGKA NILAI RATING BISA 5 ATAU 10",
+    "worstRating": "OPTIONAL ISI DENGAN JUMLAH RATING JELEK - MISAL 1 ATAU 2"
+  }
+}
+</script>
+
+
+
+
+CONTOH:
+<script type='application/ld+json'>
+{
+  "@context": "https://schema.org/",
+  "@type": "CreativeWorkSeries",
+  "name": "Obat Herbal Dedaunan | Kumpulan Resep Obat Herbal Dari Dedaunan dan Rempah-rempah Serta Cara Meramu Berikut Daftar Nama Tumbuhan Obat Beserta Nama Latinnya",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "ratingCount": "317",
+    "bestRating": "4",
+    "worstRating": "1"
+  }
+}
+</script>
+
+
+
